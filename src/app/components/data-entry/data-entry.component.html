@@ -1,0 +1,6 @@
+<input pInputText type="number" class="p-inputtext-sm" (keypress)="getShipData()" placeholder="Length" [(ngModel)]="chkVolume.length" />
+<input pInputText type="number" class="p-inputtext-sm" (keypress)="getShipData()" placeholder="Width" [(ngModel)]="chkVolume.width" />
+<input pInputText type="number" class="p-inputtext-sm" (keypress)="getShipData()" placeholder="Height" [(ngModel)]="chkVolume.height" />
+
+<p-dropdown  [(ngModel)]="selectedShipment" [options]="data" optionLabel="label" (keypress)="getShipData()" (onChange)="getShipData()"  [editable]="true"  inputId="float-label"></p-dropdown>
+

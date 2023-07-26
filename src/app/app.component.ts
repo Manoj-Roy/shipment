@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Shipment';
+  // chkVolume: {
+  //   length: number;
+  //   width: number;
+  //   height: number;
+  // } | undefined ;
+  constructor() {}
 }

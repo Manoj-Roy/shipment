@@ -23,13 +23,16 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
-            "assets": [
+            "assets": [             
               "src/favicon.ico",
               "src/assets"
+              
             ],
             "styles": [
               "src/styles.scss"
+             
             ],
+           
             "scripts": []
           },
           "configurations": {
@@ -96,6 +99,7 @@
               "src/assets"
             ],
             "styles": [
+             
               "src/styles.scss"
             ],
             "scripts": []
@@ -103,5 +107,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "536ed841-9992-4859-88fc-a4730f53f7ec"
   }
 }
